@@ -7,9 +7,9 @@
         "start": "next start"
     },
     "dependencies": {
+        "@tanstack/react-query": "^5.66.11",
         "next": "latest",
         "react": "latest",
-        "react-dom": "latest",
-        "@tanstack/react-query": "latest"
+        "react-dom": "latest"
     }
 }
