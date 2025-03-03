@@ -1,0 +1,30 @@
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.listItem {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.listItem:hover {
+    transform: scale(1.02);
+}
+
+.coinName {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.coinPrice {
+    color: #28a745;
+    font-weight: bold;
+}

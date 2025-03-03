@@ -1,8 +1,7 @@
-// docusaurus.config.js
 module.exports = {
     title: 'Crypto Price Tracker Docs',
     tagline: 'Documentation for the Crypto Price Tracker',
-    url: 'http://localhost',
+    url: 'http://localhost', // Replace with actual URL
     baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
@@ -15,6 +14,16 @@ module.exports = {
                 {
                     to: 'docs/introduction',
                     label: 'Docs',
+                    position: 'left',
+                },
+                {
+                    to: 'docs/api-integration',
+                    label: 'API',
+                    position: 'left',
+                },
+                {
+                    to: 'docs/state-management',
+                    label: 'State Management',
                     position: 'left',
                 },
                 {

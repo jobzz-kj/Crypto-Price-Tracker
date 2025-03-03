@@ -11,3 +11,19 @@ This repository contains:
    ```bash
    git clone https://github.com/jobzz-kj/Crypto-Price-Tracker
    cd your-repo
+   ```
+
+2. **Run the Front End**  
+    ```bash
+    cd web-app
+    npm i
+    npm run dev
+    ```
+
+3. **To see the Documenation**
+    ```bash
+    cd docs
+    npm i
+    npm run start
+    ```
+    After this click on Docs in the Top NavBar
