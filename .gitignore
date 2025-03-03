@@ -1,0 +1,9 @@
+
+/docs/node_modules/*
+docs/.docusaurus
+
+web-app/node_modules
+web-app/.env
+web-app/.next/*
+
+
